@@ -1,0 +1,14 @@
+.alerta {
+    padding: .5rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    &.error {
+        background-color: lighten(red, 7);
+    }
+    &.exito {
+        background-color: lighten(green, 7);
+    }
+}

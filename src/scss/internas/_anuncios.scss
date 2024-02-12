@@ -1,0 +1,7 @@
+.contenedor-anuncios-total {
+    display: grid;
+    @include tablet {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}

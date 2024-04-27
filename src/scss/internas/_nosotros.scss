@@ -1,0 +1,20 @@
+@include tablet {
+    .nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.texto-nosotros {
+    line-height: 1.5;
+    margin-top: 3rem;
+    blockquote {
+        font-size: 3.6rem;
+        font-weight: $bold;
+        margin: 0;
+    }
+    p {
+        font-size: 2rem;
+    }
+}
